@@ -1,1 +1,25 @@
-
+{
+    "api_endpoints": {
+        "guest_token": "https://api.twitter.com/1.1/guest/activate.json",
+        "login_flow": "https://api.twitter.com/1.1/onboarding/task.json",
+        "tweet": "https://twitter.com/i/api/graphql/SoVnbfCycZ7fERGCwpZkYA/CreateTweet",
+        "user_info": "https://twitter.com/i/api/graphql/hVhfo6o5M2zGqSfY3a_5bw/Viewer"
+    },
+    "rate_limits": {
+        "post_delay_min": 3,
+        "post_delay_max": 7,
+        "reply_delay_min": 5,
+        "reply_delay_max": 10,
+        "login_delay": 2
+    },
+    "security": {
+        "max_attempts_per_hour": 50,
+        "session_timeout_hours": 24,
+        "auto_refresh_token": true
+    },
+    "logging": {
+        "level": "INFO",
+        "max_file_size_mb": 10,
+        "backup_count": 5
+    }
+}
