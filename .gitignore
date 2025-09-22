@@ -1,1 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
 
+# Config files
+config/accounts.json
+config.json
+*.env
+*.key
+
+# Logs
+logs/
+*.log
+
+# Data
+data/targets/sensitive_*.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
